@@ -4,7 +4,7 @@
 Renmore, Galway H91 A7PD  
 ilias.nedipov@gmail.com | 085 216 1075 | [LinkedIn](https://linkedin.com/in/ilias-nedipov)
 
-## PROFILE | CAREER OBJECTIVE
+## PROFILE and CAREER OBJECTIVE
 
 Highly qualified data-driven analyst with a strong background in the transportation (logistics) industry. Holder of a BSc. in Finance, MSc. in Civil Engineering and Construction, and MSc. in Marine Transportation. Certified in Data Analysis and Project Management, with a proven track record of leveraging analytical skills to drive financial insights and operational efficiencies within complex logistics environments. Currently pursuing postgraduate education at Galway University, demonstrating a commitment to continuous learning and professional development. Eager to apply my diverse skill set and academic achievements to contribute to a dynamic and forward-thinking work environment.
 
@@ -124,4 +124,4 @@ Achievements:
 ## REFEREES
 
 References on request.
-"## Опыт работы" 
+
