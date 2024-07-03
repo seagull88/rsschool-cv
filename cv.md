@@ -98,7 +98,7 @@ Achievements:
 **Microsoft Power BI:**
 - Developed and presented insightful visualizations using Microsoft Power BI, enhancing data-driven decision-making.
 
-**R (Programming Language):**
+**R - Programming Language:**
 - Applied R for statistical analysis and data manipulation during coursework at University of Galway and Dublin Coding School Data Analytics.
 
 **Tableau:**
