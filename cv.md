@@ -113,7 +113,7 @@ Achievements:
 - Proficient in Microsoft Office Suite, including Excel for financial reporting and analysis.
 - Familiarity with Google Data Analytics tools and Google office applications.
 
-## INTERESTS | HOBBIES
+## INTERESTS and HOBBIES
 
 - **Tennis:** Casual tennis player, engaging in regular sessions for fitness and fun.
 - **Reading:** Delving into analytical and historical literature across genres is a source of enjoyment.
