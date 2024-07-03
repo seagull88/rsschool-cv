@@ -3,6 +3,7 @@
 
 Renmore, Galway H91 A7PD  
 ilias.nedipov@gmail.com | 085 216 1075 | [LinkedIn](https://linkedin.com/in/ilias-nedipov)
+Discord: Ilias Nedipov (@seagull88)
 
 ## PROFILE and CAREER OBJECTIVE
 
