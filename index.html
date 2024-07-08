@@ -3,10 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilias Nedipov - CV</title>
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
 </head>
 <body>
-    <h1>My CV</h1>
+<header>
+    <h1>Ilias Nedipov</h1>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#references">References</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="left-column">
+        <div class="photo-container">
+            <img src="my_photo88.jpg" alt="Ilias Nedipov">
+        </div>
+        <div class="contact-info">
+            <ul>
+                <li><strong>Location:</strong> Renmore, Galway H91 A7PD</li>
+                <li><strong>Phone:</strong> 066 227 0224</li>
+                <li><strong>LinkedIn:</strong> <a href="#">Ilias Nedipov</a></li>
+                <li><strong>Discord:</strong> Ilias Nedipov (@seagull88)</li>
+            </ul>
+        </div>
+        <section id="skills" class="skills">
+            <h2>Skills Summary</h2>
+            <h3>Technical Skills:</h3>
+            <ul>
+                <li>Python</li>
+                <li>R</li>
+                <li>MySQL</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Advanced Excel</li>
+            </ul>
+            <h3>Professional Skills:</h3>
+            <ul>
+                <li>Analytical</li>
+                <li>Detail-oriented</li>
+                <li>Excellent Communication</li>
+                <li>Project Coordination</li>
+            </ul>
+        </section>
+    </div>
+    <div class="right-column">
+        <section id="profile" class="profile">
+            <h2>Profile</h2>
+            <p>Data-driven analyst with a background in transportation logistics. Pursuing PDip in Data Analytics at Galway University. Certified in Data Analysis and Project Management. Proven track record in leveraging analytical skills for operational efficiencies.</p>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p><strong>University of Galway</strong><br>
+                PDip Data Analytics and Visualisation (2023-2024)</p>
+            <p><strong>Ukrainian State University of Science and Technologies</strong><br>
+                MSc (Hons) Civil and Industrial Engineering (2010-2011)<br>
+                BA (Hons) Civil and Industrial Engineering (2006-2010)</p>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Work Experience</h2>
+            <p><strong>Senior Administrative Manager, Laskaridis Shipping (2020-2022)</strong><br>
+                Implemented project controls, managed stakeholders, conducted risk assessments.</p>
+            <p><strong>Administrative Officer, Laskaridis Shipping (2016-2020)</strong><br>
+                Coordinated projects, managed documents, utilized data analytics.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Skills Profile</h2>
+            <p><strong>Data Analysis:</strong> Conducted comprehensive data analysis and forecasting for property prices in Dublin using Python.</p>
+            <div class="code-block">
+                    <pre><code># Checking data for Dublin
+dublin_data = data_cleaned[['YEAR', 'Dublin']].dropna().set_index('YEAR')
+
+# Checking stationarity (ADF test)
+result_dublin = adfuller(dublin_data['Dublin'])
+print(f'ADF Statistic (Dublin): {result_dublin[0]}')
+print(f'p-value (Dublin): {result_dublin[1]}')
+
+# Building ARIMA model with automatic parameter selection
+model = pm.auto_arima(dublin_data['Dublin'], seasonal=False, stepwise=True, trace=True)
+print(f'Best parameters for Dublin: {model.order}')
+
+# Forecasting for 2016-2025 for Dublin
+n_forecast = 10
+forecast_dublin, conf_int_dublin = model.predict(n_periods=n_forecast, return_conf_int=True)</code></pre>
+            </div>
+            <p><strong>Project Coordination:</strong> Managed projects and applied feasibility studies.</p>
+            <p><strong>Microsoft Power BI & Tableau:</strong> Developed and presented data visualizations.</p>
+            <p><strong>MySQL & R:</strong> Database management and statistical analysis.</p>
+        </section>
+
+        <section id="interests" class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Tennis</li>
+                <li>Reading</li>
+                <li>Ethnic Music</li>
+                <li>Hiking</li>
+                <li>Swimming</li>
+            </ul>
+        </section>
+
+        <section id="references" class="references">
+            <h2>References</h2>
+            <p>Available upon request.</p>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <a href="https://github.com/seagull88" class="github-button">GitHub</a>
+    <p class="footer-year">2024</p>
+    <a href="https://rs.school/courses/javascript-ru">
+        <img src="RS_logo.png" alt="RS School Logo" class="footer-logo">
+    </a>
+</footer>
 </body>
 </html>
