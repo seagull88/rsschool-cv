@@ -1,5 +1,3 @@
-# rsschool-cv
-
-https://seagull88.github.io/rsschool-cv
+rsschool-cv"[CV](https://seagull88.github.io/rsschool-cv/cv)"
 
 
